@@ -1,2 +1,21 @@
-# smart_home_controller_hari
-Automatic lights controller by interfacing rtc with 8 bit PIC microcontroller
+# rtc_controller_hari
+Automatic lights and fan controller using RTC module interfaced with PIC 8 bit microcontroller
+
+Files included:
+
+- bh1750 - header which included functions for light sensor
+- lcd - header which included functions for lcd
+- functions - header which contains general purpose functions for control
+- eeprom - header which contains functions for eeprom
+- main - main source file
+
+Working :
+-LCD
+-EEPROM
+-Relay controls
+
+Not working :
+-Light sensor
+-Interface with light sensor
+-Control conditions based on data from light sensor
+-Change functionality of RTC based controls
